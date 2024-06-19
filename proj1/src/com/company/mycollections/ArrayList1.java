@@ -57,6 +57,11 @@ public class ArrayList1 {
 
         System.out.println("Original list: " + list2);
 
+        //      it
+        // [ 1, 2, 3, 4, ]
+//        for(Integer i : list2) {
+//
+//        }
         Iterator<Integer> it = list2.iterator();
         while (it.hasNext()) {
             it.next();  // Move the iterator to the next element

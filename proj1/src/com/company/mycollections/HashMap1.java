@@ -7,6 +7,11 @@ import java.util.HashMap;
 public class HashMap1 {
 
     public static void main(String[] args) {
+
+        // 1, 7, 9 -> "ehad"
+        // 2 -> "two"
+        // get.key(1)
+        // put (1, "ehad")
         HashMap<Integer, String> hashMap = new HashMap<>();
         hashMap.put(100, "One");
         hashMap.put(250, "Two");
@@ -25,6 +30,8 @@ public class HashMap1 {
         // 1, 100000, 34875, 2, 2, 1, 34875, 34875, 34875
         HashMap<Integer, Integer> dup = new HashMap<>();
         int[] list = { 1, 100000, 34875, 2, 2, 1, 34875, 34875, 34875 };
+        // arr 1,000,000
+        // arr[1] = 1
         for(Integer i : list) {
             int counter = 0;
             if (dup.containsKey(i)) {

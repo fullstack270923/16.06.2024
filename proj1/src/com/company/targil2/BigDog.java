@@ -2,6 +2,8 @@ package com.company.targil2;
 
 public class BigDog extends Dog {
 
+    static float avg_size = 0.5f;
+
     public BigDog(String name) {
         super(name);
     }
